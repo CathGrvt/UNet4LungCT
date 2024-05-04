@@ -1,0 +1,29 @@
+name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python==3.9.18
+  - conda==23.10.0
+  - setuptools
+  - pip
+  - wheel
+  - conda-content-trust
+  - conda-libmamba-solver
+  - numpy
+  - pre-commit
+  - pytest
+  - pandas
+  - doxygen
+  - scipy
+  - line_profiler
+  - matplotlib
+  - pydicom
+  - scikit-image
+  - scikit-learn
+  - pytorch
+  - torchvision
+  - torchmetrics
+
+
+prefix: /opt/conda

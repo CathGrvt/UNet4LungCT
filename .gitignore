@@ -1,0 +1,12 @@
+Dataset/*
+.DS_Store
+__pycache__/
+*.pyc
+*.ipynb_checkpoints
+tests/samples/*
+.pytest_cache/*
+notebooks/model_checkpoint.pth
+docs/html/*
+docs/latex/*
+image_datasets.pth
+.vscode
